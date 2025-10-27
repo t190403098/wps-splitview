@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PDF 分屏阅读</title>
+  <link rel="stylesheet" href="splitview.css">
+</head>
+<body>
+  <div id="toolbar">
+    <button id="btnLeftRight">左右分屏</button>
+    <button id="btnTopBottom">上下分屏</button>
+    <label><input type="checkbox" id="syncScroll">同步滚轮</label>
+    <label><input type="checkbox" id="syncPage">同步翻页</label>
+  </div>
+
+  <!-- 两个 iframe 用来加载不同页 -->
+  <div id="grid">
+    <iframe id="leftFrame"  frameborder="0"></iframe>
+    <iframe id="rightFrame" frameborder="0"></iframe>
+  </div>
+
+  <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+  <script src="splitview.js"></script>
+</body>
+</html>
