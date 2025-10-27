@@ -6,13 +6,14 @@
   <defaultLocale>zh-CN</defaultLocale>
   <displayName DefaultValue="PDF 分屏阅读"/>
   <description DefaultValue="左右/上下分屏对照阅读，支持同步翻页"/>
-  <iconUrl DefaultValue="https://localhost:3000/icon.png"/>
-  <supportUrl DefaultValue="https://localhost:3000/help.html"/>
+  <iconUrl DefaultValue="https://t190403098.github.io/wps-splitview/icon.png"/>
+  <supportUrl DefaultValue="https://t190403098.github.io/wps-splitview/help.html"/>
   <hosts>
     <host name="Pdf"/>
   </hosts>
   <defaultSettings>
-    <sourceLocation DefaultValue="https://localhost:3000/splitview.html"/>
+    <sourceLocation DefaultValue="https://t190403098.github.io/wps-splitview/splitview.html"/>
   </defaultSettings>
   <permissions>ReadWriteDocument</permissions>
+
 </manifest>
